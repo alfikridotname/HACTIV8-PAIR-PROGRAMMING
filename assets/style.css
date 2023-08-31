@@ -3,6 +3,16 @@ body {
     text-align: center;
 }
 
+.profile-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    border-radius: 5px 5px 5px 5px;
+    width: 25%;
+}
+
 h3 {
     font-size: large;
 }
