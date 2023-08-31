@@ -1,0 +1,24 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h3 {
+    font-size: large;
+}
+
+img {
+    border-radius: 50%;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.profile-container {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+}
