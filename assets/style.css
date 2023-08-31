@@ -3,11 +3,6 @@ body {
     text-align: center;
 }
 
-.profile-container {
-    display: flex;
-    justify-content: center;
-}
-
 .profile {
     border-radius: 5px 5px 5px 5px;
     width: 25%;
@@ -21,14 +16,22 @@ img {
     border-radius: 50%;
 }
 
-li a {
+a {
     text-decoration: none;
+}
+a:hover{
+    color:gray;
 }
 
 .profile-container {
     display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 .profile {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
